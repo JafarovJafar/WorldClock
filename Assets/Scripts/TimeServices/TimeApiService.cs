@@ -16,7 +16,7 @@ public class TimeApiService : TimeService
         int minutes = Convert.ToInt32(result.minute);
         int seconds = Convert.ToInt32(result.seconds);
 
-        TimeSpan resultTime = new TimeSpan(hours, minutes, seconds);
+        TimeSpan resultTime = new TimeSpan(hours, minutes, seconds);//
 
         return resultTime;
     }
